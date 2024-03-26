@@ -1,0 +1,62 @@
+body {
+    padding: 0px;
+    margin: 0px;
+background-color: black;
+   /* background-repeat: no-repeat; */
+   font-weight: bolder;
+   color: chartreuse;
+   font-size: xx-large;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  .heading{
+    color: chartreuse;
+   text-align: center;
+   margin-top: 10px;
+   font-size: xx-large;
+   z-index: 1;
+   position: relative;
+  }
+  
+  .form{
+    margin-left: 35%;
+    /* margin-top: 5px; */
+    padding-top: 15px;
+    position: fixed;
+    align-content: flex-start;
+    top: 19px;
+    left: 2px;
+    z-index: 0;
+    color: blueviolet;
+    text-align: center;
+    font-size: large;
+  width: 320px;
+  }
+  .im{
+    /* padding-bottom: 90%; */
+    position: fixed;
+    top: 3rem;
+    width: 30rem;;
+     left: 1px; 
+    z-index: -1;
+  }
+  #username,#password,#confirm-password{
+    margin-top: 1rem; 
+    width:fit-content;
+    /* position: fixed; */
+    text-align: center;
+
+  }
+  h2{
+    color: blueviolet;
+    text-align: center;
+   margin-top: 3rem;
+  }
+  
+  .btn{
+    margin-top: 5px;
+  }
+  .btn:hover{
+    cursor: pointer;
+   background-color: cadetblue;
+
+  }

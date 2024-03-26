@@ -1,0 +1,44 @@
+
+<html >
+<head>
+  
+      <link rel="stylesheet" href="/stylesheet/style.css">
+
+  <title >{{title}}</title>
+</head>
+<body>
+  
+    <h1 class="heading">{{title}}</h1>
+<img class="im" src="/images/co.png" alt="" srcset="">
+
+   
+    <form action="/"  method="POST">
+<div class="form">
+<h2 >{{topic}}</h2>
+      <div class="form-group">
+       
+        <label for="username">{{hd1}}:</label>
+        <input type="text" id="username" name="username" required  value={{user.username}} >
+         <p style="color:red">   {{error.username.msg}}</p>
+      </div><br>
+
+      <div class="form-group">
+        <label for="password">{{hd2}}</label>
+        <input type="password" id="password" name="password"required value={{user.password}} >
+          <p style="color:red">   {{error.password.msg}}</p>
+
+      </div><br>
+
+      <div class="form-group">
+        <label for="confirmpassword">{{hd3}}</label>
+        <input type="password" id="confirmpassword" name="confirmpassword" required>
+        <p style="color:red">   {{error.confirmpassword.msg}}</p>
+
+      </div>
+
+      <button class="btn" type="submit">{{hd4}}</button>
+    </form>
+    </div>
+  </section>
+</body>
+</html>
